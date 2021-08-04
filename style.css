@@ -1,0 +1,372 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* COMMON STYLES */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ebfaff;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    font-size: 44px;
+    text-align: center;
+    color: #2D25A0;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: #E02C6D;
+}
+
+/* HEADER STYLES */
+header{
+    background-color: #2D25A0;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+.menu{
+    display: none;
+}
+.header-menu{
+    display: flex;
+    margin-left: 170px;
+}
+.header-menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 36px;
+}
+.header-menu li{
+    list-style: none;
+}
+a{
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+.header-logout{
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+    align-items: center;
+    background-color: #E02C6D;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: ease-out 0.5s;
+}
+.header-logout li{
+    margin-left: 10px;
+}
+
+.header-logout:hover{
+    background-color: yellow;
+    color: #2D25A0;
+}
+
+/* HERO SECTION STYLES */
+.hero-section{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-top: 150px;
+    padding-bottom: 65px;
+    
+    background-color: #2D25A0;
+
+}
+.hero-title-button h2{
+    font-size: 64px;
+    color: white;
+    width: 500px;
+}
+.learnmore-button{
+    display: flex;
+    list-style: none;
+    
+    align-items: center;
+    background-color: #E02C6D;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out 0.5s;
+    width: 168px;
+    
+}
+.learnmore-button li{
+    margin-right: 10px;
+}
+.learnmore-button:hover{
+    background-color: yellow;
+    color: #2D25A0;
+}
+.hero-image:hover img{
+    transform:  scale(1.1) ;
+    transition: transform 1s ease-in;
+}
+.hero-image img{
+    width: 70%;
+    margin-left: 100px;
+    
+}
+
+/* MAIN SECTION STYLES */
+.player-grid{
+    margin-top: 70px;
+    margin-left: 180px;
+    margin-right: 180px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.player-info{
+    width: 330px;
+    height: 474px;
+    box-shadow: 1px 1px 10px rgb(205, 228, 236);
+    padding: 20px;
+    padding-bottom: 70px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.player-info img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+/* HIGHLIGHT SECTION STYLES */
+.highlight{
+    display: flex;
+    background-color: #2D25A0;
+    align-items: center;
+    padding-left: 150px;
+    padding-right: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.highlight-image{
+    width: 60%;
+}
+.highlight-image img{
+    width: 130%;
+}
+.highlight-image:hover img{
+    transform:  scale(1.1) ;
+    transition: transform 1s ease-in;
+}
+.highlight-title-button{
+    margin-left: 180px;
+}
+.highlight-title-button h2{
+    font-size: 64px;
+    color: white;
+}
+
+/* TEAM SECTION STYLES */
+.team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.team-flag{
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(205, 228, 236);
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.team-flag img{
+    width: 60%;
+}
+
+/* CHAMPION SECTION STYLES */
+.champ-title{
+    font-size: 44px;
+    text-align: center;
+    color: white;
+}
+.champion{
+    background-color: #2D25A0;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.cheer-video{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.cheer-video video{
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(96, 120, 255);
+    border-radius: 5px;
+}
+
+/* FOOTER SECTION STYLES */
+footer{
+    text-align: center;
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+footer img{
+    width: 10%;
+}
+.social-icon{
+    margin-top: 20px;
+}
+.social-icon i{
+    margin-left: 10px;
+    background-color: #2D25A0;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+footer p{
+    margin-bottom: 0;
+}
+.fa-facebook:hover{
+    background-color: #E02C6D;
+    transition: ease-out 0.5s;
+}
+.fa-dribbble:hover{
+    background-color: #E02C6D;
+    transition: ease-out 0.5s;
+}
+.fa-instagram:hover{
+    background-color: #E02C6D;
+    transition: ease-out 0.5s;
+}
+.fa-twitter:hover{
+    background-color: #E02C6D;
+    transition: ease-out 0.5s;
+}
+
+/* MEDIA QUREY */
+@media only screen and (max-width:688px) {
+    .header-menu{
+        display: none;
+    }
+    .menu{
+        display: inline;
+        color: white;
+        padding-left: 30px;
+    }
+    .header-logout{
+        margin-left: 180px;
+    }
+    .hero-section{
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 20px;
+    }
+    .hero-title-button h2{
+        width: 300px;
+    }
+    .hero-image img{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .player-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .highlight{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+        padding-right: 20px;
+        
+    }
+    .highlight-image img{
+        margin-left: 50px;
+    }
+    .highlight-title-button{
+        margin-left: 20px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .header-menu{
+        display: none;
+    }
+    .menu{
+        display: inline;
+        color: white;
+        padding-left: 60px;
+    }
+    .header-logout{
+        margin-left: 500px;
+    }
+    .hero-section{
+        display: grid;
+        grid-template-columns: repeat(1, fr);
+        padding-top: 100px;
+        padding-left: 120px;
+        padding-right: 20px;
+    }
+    .hero-title-button h2{
+        width: 600px;
+    }
+    .hero-image img{
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+
+    .player-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .highlight{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding-left: 10px;
+        padding-right: 20px;
+        
+    }
+    .highlight-image img{
+        margin-left: 50px;
+    }
+    .highlight-title-button{
+        margin-left: 20px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
